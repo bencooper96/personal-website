@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from \"react\";\n\nconst Image = props => {\n  return __jsx(\"img\", {\n    src: \"./img/skillLevel/\" + props.name + \".png\",\n    alt: props.name,\n    className: \"object-contain mx-auto h-8 md:h-10 lg:h-12\"\n  });\n};\n\nexport default Image;","map":null,"metadata":{},"sourceType":"module"}

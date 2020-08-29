@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var videoData = [{\n  desc: \"ben cooper logo\",\n  path: \"/BCLogo.1.\"\n}, {\n  desc: \"kung fu\",\n  path: \"/kung-fu.\"\n}, {\n  desc: \"western animation\",\n  path: \"/western.\"\n}, {\n  desc: \"trees w/ white bg\",\n  path: \"/trees.\"\n}];","map":null,"metadata":{},"sourceType":"module"}
