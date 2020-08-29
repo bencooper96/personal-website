@@ -4,7 +4,7 @@ const Image = (props) => {
   return (
     <React.Fragment>
       <div
-        onClick={props.onOpenModal}
+        // onClick={props.onOpenModal}
         className="m-2 bg-green-600 md:block hidden"
         style={{ cursor: "pointer", width: "80vw", height: "53vw" }}
       >

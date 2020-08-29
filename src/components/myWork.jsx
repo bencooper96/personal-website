@@ -7,15 +7,17 @@ class MyWork extends Component {
   render() {
     return (
       <div className="bg-gray-500 px-4 py-40 w-full" id="my-work">
-        <div className="md:block hidden ">
-          <HorizontalScroll reverseScroll={true} style={{ height: "40vw" }}>
+        <div className="my-4">
+          <div className="md:block hidden ">
+            <HorizontalScroll reverseScroll={true} style={{ height: "40vw" }}>
+              <Projects />
+              {/* This is to ensure an array is passed to HorizonalScroll  */}
+              {""}
+            </HorizontalScroll>
+          </div>
+          <div className="md:hidden block h-full">
             <Projects />
-            {/* This is to ensure an array is passed to HorizonalScroll  */}
-            {""}
-          </HorizontalScroll>
-        </div>
-        <div className="md:hidden block h-full">
-          <Projects />
+          </div>
         </div>
       </div>
     );
