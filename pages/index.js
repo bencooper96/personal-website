@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
-import LandingPage from "../src/components/landingPage";
-import AboutMe from "../src/components/aboutMe";
-import MyWork from "../src/components/myWork";
+import LandingPage from "../src/components/landingPage/landingPage";
+import AboutMe from "../src/components/aboutMe/aboutMe";
+import MyWork from "../src/components/myWork/myWork";
 import Footer from "../src/components/footer";
 import Navigation from "../src/components/navigation";
 

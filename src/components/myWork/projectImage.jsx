@@ -4,20 +4,16 @@ const Image = (props) => {
   return (
     <React.Fragment>
       <div
-        // onClick={props.onOpenModal}
-        className="m-2 bg-green-600 md:block hidden"
+        className="m-2 bg-gray-300 md:block mx-auto md:mx-2 relative"
         style={{ cursor: "pointer", width: "80vw", height: "53vw" }}
       >
-        <p className="text-center">{props.projectData.name}</p>
-        <p className="text-center">this is the image</p>
-      </div>
-      <div
-        onClick={props.onOpenModal}
-        className="m-2 bg-orange-600 md:hidden block mx-auto "
-        style={{ cursor: "pointer", width: "80vw", height: "53vw" }}
-      >
-        <p className="text-center">{props.projectData.name}</p>
-        <p className="text-center">this is the image</p>
+        <img
+          src={`img/projectPictures/${props.projectData.imgPath}3.png`}
+          className=" flex h-full float-right p-6"
+        />
+        <p className="absolute inset-0 text-center md:text-6xl sm:text-4xl text-3xl md:p-16 p-8">
+          {props.projectData.name}
+        </p>
       </div>
     </React.Fragment>
   );
