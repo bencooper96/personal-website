@@ -24,25 +24,6 @@ class Project extends Component {
       </React.Fragment>
     );
   }
-
-  handleOpenModal = () => {
-    // Make a shallow copy of the items
-    let modalArray = this.state.modalArray;
-    // Replace the property you're intested in
-    modalArray.modalClassName = "block ";
-    modalArray.imgClassName = "hidden";
-    // Set the state to our new copy
-    this.setState({ modalArray });
-  };
-  handleCloseModal = () => {
-    // Make a shallow copy of the items
-    let modalArray = this.state.modalArray;
-    // Replace the property you're intested in
-    modalArray.modalClassName = "hidden ";
-    modalArray.imgClassName = "block ";
-    // Set the state to our new copy
-    this.setState({ modalArray });
-  };
 }
 
 export default Project;

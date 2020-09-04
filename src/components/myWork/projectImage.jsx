@@ -11,7 +11,7 @@ const Image = (props) => {
           src={`img/projectPictures/${props.projectData.imgPath}3.png`}
           className=" flex h-full float-right p-6"
         />
-        <p className="absolute inset-0 text-center md:text-6xl sm:text-4xl text-3xl md:p-16 p-8">
+        <p className="absolute inset-0 text-center md:text-6xl sm:text-4xl text-3xl lg:py-32 md:p-16 p-8">
           {props.projectData.name}
         </p>
       </div>

@@ -3,5 +3,8 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/projects/soloStander": "pages/projects/soloStander.js",
-  "/": "pages/index.js"
+  "/projects/polly": "pages/projects/polly.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/": "pages/index.js",
+  "/projects/hydroponics": "pages/projects/hydroponics.js"
 }

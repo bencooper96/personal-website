@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Head from "next/head";
 
 import LandingPage from "../src/components/landingPage/landingPage";
 import AboutMe from "../src/components/aboutMe/aboutMe";
@@ -15,6 +16,13 @@ class App extends Component {
           fontFamily: "Courier New, Courier, monospace",
         }}
       >
+        <Head>
+          <title>ben cooper</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+        </Head>
         <Navigation />
         <LandingPage />
         <AboutMe />

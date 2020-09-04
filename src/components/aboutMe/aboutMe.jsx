@@ -6,8 +6,11 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="bg-gray-300 my-0 w-full static">
-        <div className="py-64 md:px-32 px-8 w-full relative z-0" id="about-me">
-          <h1 className="text-5xl md:text-6xl mt-32" id="about-me-target">
+        <div
+          className="py-64 md:px-32 px-8 w-full relative z-0"
+          id="about-me-target"
+        >
+          <h1 className="text-5xl md:text-6xl mt-32" id="about-me">
             hey, <br />
             i'm ben;
           </h1>

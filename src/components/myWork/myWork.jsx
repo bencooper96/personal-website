@@ -6,7 +6,7 @@ class MyWork extends Component {
   state = {};
   render() {
     return (
-      <div className="bg-gray-500 px-4 py-40 w-full" id="my-work">
+      <div className="bg-gray-500 px-4 py-10 md:py-40 w-full" id="my-work">
         <div className="my-4">
           <div className="md:block hidden ">
             <HorizontalScroll reverseScroll={true} style={{ height: "53vw" }}>
