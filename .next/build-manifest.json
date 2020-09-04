@@ -34,16 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/next/dist/pages/_error.js"
     ],
-    "/projects/hydroponics": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/projects/hydroponics.js"
-    ],
-    "/projects/polly": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/projects/polly.js"
-    ],
     "/projects/soloStander": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",

@@ -40,9 +40,9 @@ class App extends Component {
               </p>
               <p className="text-xl text-gray-600 mx-auto mb-6 w-2/3">
                 In the spring of 2019, I led a team of engineers through the
-                product design and development of a commercialization plan for a
-                standing device, commissioned by a med-tech startup company
-                based in San Diego.
+                design of a standing device and the development of a plan to
+                bring it to market. Our client was a med-tech startup company
+                based in San Diego, CA.
               </p>
             </Writeup>
             <ProjectVideo projectName="soloStander" number="1" />
@@ -88,6 +88,12 @@ class App extends Component {
               <ProjectImage projectName="soloStander" number="3" />
               <ProjectImage projectName="soloStander" number="4" />
             </div>
+            <Writeup>
+              <p className="text-xl text-gray-600 mx-auto mt-20 w-2/3">
+                Based on our commercialization plan, we estimate that our client
+                is positioned to profit $2.6M over the 5 years following launch.
+              </p>
+            </Writeup>
           </div>
         </Layout>
       </React.Fragment>
