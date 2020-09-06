@@ -83,6 +83,7 @@ class App extends Component {
                 <br />• It allows users to continue using their expensive,
                 custom fit, wheelchairs.
               </p>
+              ç
             </Writeup>
             <div className="flex">
               <ProjectImage projectName="soloStander" number="3" />
