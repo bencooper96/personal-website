@@ -1,6 +1,6 @@
 export const skills = [
   { name: "web development", level: 2.5 },
-  { name: "ux design", level: 3 },
+  { name: "product design", level: 3 },
   { name: "user research", level: 2 },
   { name: "3d modeling", level: 2.5 },
   { name: "data science", level: 1.5 },
