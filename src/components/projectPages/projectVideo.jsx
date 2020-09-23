@@ -4,7 +4,7 @@ class ProjectVideo extends Component {
   state = {};
   render() {
     return (
-      <video playsinline autoplay controls muted loop className="w-1/3 mx-auto">
+      <video playsInline controls muted loop className="w-1/3 mx-auto">
         <source
           src={`/img/projectPictures/${this.props.projectName}/vid${this.props.number}.webm`}
           type="video/webm"

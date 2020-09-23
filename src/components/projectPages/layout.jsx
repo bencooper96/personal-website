@@ -26,9 +26,9 @@ class Layout extends Component {
             <p className={this.props.textFormating + " text-center text-6xl"}>
               {this.props.projectName}
             </p>
-            <img
-              src={`/img/projectPictures/${this.props.projectImgPath}/logo.png`}
-              className={this.props.logoFormating + " mx-auto"}
+            <object
+              data={`/img/projectPictures/${this.props.projectImgPath}/logo.png`}
+              className={this.props.logoFormating + " mx-auto "}
               alt=""
             />
             <p className={this.props.textFormating + " text-center text-xl"}>
