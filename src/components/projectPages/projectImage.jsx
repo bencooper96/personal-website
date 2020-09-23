@@ -5,7 +5,7 @@ class ProjectImage extends Component {
   render() {
     return (
       <img
-        className="w-1/2  px-1"
+        className={this.props.customFormatting + " w-1/2 px-0"}
         src={`/img/projectPictures/${this.props.projectName}/${this.props.number}.png`}
       />
     );

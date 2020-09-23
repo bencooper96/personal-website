@@ -7,9 +7,14 @@ export const ProjectsData = [
     slug: "soloStander",
   },
   {
-    name: "Polly",
-    imgPath: "polly/",
-    slug: "polly",
+    name: "Herd",
+    imgPath: "herd/",
+    slug: "herd",
+  },
+  {
+    name: "Nook",
+    imgPath: "nook/",
+    slug: "nook",
   },
   {
     name: "Smart Shelves",

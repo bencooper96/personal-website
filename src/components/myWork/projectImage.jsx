@@ -8,7 +8,7 @@ const Image = (props) => {
         style={{ cursor: "pointer", width: "80vw", height: "45vw" }}
       >
         <img
-          src={`img/projectPictures/${props.projectData.imgPath}3.png`}
+          src={`img/projectPictures/${props.projectData.imgPath}preview.png`}
           className=" flex h-full float-right p-6"
         />
         <p className="absolute inset-0 text-center md:text-6xl sm:text-4xl text-3xl lg:py-32 md:p-16 p-8">
