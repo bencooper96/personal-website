@@ -31,7 +31,7 @@ class TV extends Component {
     return (
       <React.Fragment>
         <div
-          className="absolute md:block hidden"
+          className="absolute md:block hidden cursor-pointer"
           style={{
             height: "60vh",
             width: "70vh",

@@ -12,28 +12,28 @@ export const ProjectsData = [
     slug: "herd",
   },
   {
-    name: "Nook",
-    imgPath: "nook/",
-    slug: "nook",
-  },
-  {
     name: "Smart Shelves",
     imgPath: "smartShelves/",
     slug: "smartShelves",
+  },
+  {
+    name: "Nook",
+    imgPath: "nook/",
+    slug: "nook",
   },
   {
     name: "morph",
     imgPath: "morph/",
     slug: "morph",
   },
-  {
-    name: "Bottle Stencil",
-    imgPath: "bottleStencil/",
-    slug: "bottleStencil",
-  },
-  {
-    name: "Hydroponics",
-    imgPath: "hydroponics/",
-    slug: "hydroponics",
-  },
+  // {
+  //   name: "Bottle Stencil",
+  //   imgPath: "bottleStencil/",
+  //   slug: "bottleStencil",
+  // },
+  // {
+  //   name: "Hydroponics",
+  //   imgPath: "hydroponics/",
+  //   slug: "hydroponics",
+  // },
 ];
