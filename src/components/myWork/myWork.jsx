@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import HorizontalScroll from "react-scroll-horizontal";
+import Gallery from "./myWorkGallery";
 import Projects from "./projects";
 
 class MyWork extends Component {
@@ -13,6 +14,7 @@ class MyWork extends Component {
               <Projects />
               {/* This is to ensure an array is passed to HorizonalScroll  */}
             </HorizontalScroll>
+            {/* <Gallery /> */}
           </div>
           <div className="md:hidden block h-full">
             <Projects />

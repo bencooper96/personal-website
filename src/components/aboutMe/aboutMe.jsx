@@ -14,9 +14,9 @@ class AboutMe extends Component {
             hey, <br />
             i'm ben;
           </h1>
-          <div className="text-2xl md:text-3xl mt-8">
+          {/* <div className="text-2xl md:text-3xl mt-8">
             a guy desperately trying to avoid becoming a corporate stiff.
-          </div>
+          </div> */}
           <div className="text-2xl md:text-3xl my-20">
             i aspire to build things that help people and their communities
             thrive.

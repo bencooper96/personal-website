@@ -34,10 +34,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/next/dist/pages/_error.js"
     ],
-    "/projects/soloStander": [
+    "/projects/morph": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/projects/soloStander.js"
+      "static/chunks/pages/projects/morph.js"
     ]
   },
   "ampFirstPages": []
