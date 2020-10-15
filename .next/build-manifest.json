@@ -14,11 +14,6 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
@@ -34,15 +29,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/next/dist/pages/_error.js"
     ],
-    "/projects/morph": [
+    "/projects/smartShelves": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/projects/morph.js"
-    ],
-    "/projects/nook": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/projects/nook.js"
+      "static/chunks/pages/projects/smartShelves.js"
     ],
     "/projects/soloStander": [
       "static/chunks/main.js",

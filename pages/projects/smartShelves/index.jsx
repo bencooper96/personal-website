@@ -23,26 +23,61 @@ const App = () => {
           <Writeup>
             <h1 className="text-4xl text-gray-600 m-10">Background:</h1>
             <p className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
-              sdfasdfasdf
+              The world is becoming more urbanized. This is overall a really
+              good thing; it is more environmentally friendly, better for the
+              economy, and enables people to exchange ideas and inspiration. One
+              downside of the city, however, is the tight spaces those who live
+              there are squeezed into.
+            </p>
+
+            <p className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
+              In the Fall of 2018, Stanley Black and Decker commissioned the
+              design of a kitchen product to break into the global market.
+              Through over 90 user interviews and 70 survey responses from
+              people living in Asian Pacific cities, we learned that 80% people
+              are frustrated with their small kitchen space and were willing to
+              pay for a solution.
             </p>
           </Writeup>
           <ProjectVideo projectName="smartShelves" number="1" />
           <Writeup>
             <h1 className="text-4xl text-gray-600 m-10">Solution:</h1>
             <p className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
-              asdfasdfasdfasdfasdf
+              Through interviews, we learned people did not want to lose space
+              in their kitchen to add another product; making the development of
+              a product difficult at face value.
             </p>
-
-            <li className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
-              <b>A </b>asdfasdfasdf
-            </li>
-            <li className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
-              <b>B </b> asdfasdfasdfasdcasdcasdca
-            </li>
-            <li className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
-              <b>C </b>sdfajksdcasdcjasndclasjd
-            </li>
+            <p className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
+              After brainstorming and prototyping solutions on improving the
+              space efficiency of existing products, the team came to the
+              realization that adding space, rather than shrinking appliances,
+              would be the best way to solve the problem. This discovery
+              inspired Smart Shelves, a collapsible shelving system.
+            </p>
+            <p className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
+              This system takes advantage of the French cleat concept. In the
+              active position, the product is held in place using its own
+              weight, making use of the first French cleat.
+            </p>
           </Writeup>
+          <p className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
+            This system takes advantage of the French cleat concept. In the
+            active position, the product is held in place using its own weight,
+            making use of the first French cleat.
+          </p>
+          <li className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
+            <b>1. </b>Extreme ease of use
+          </li>
+          <li className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
+            <b>2. </b> Low cost of manufacturing as it will not include any
+            expensive mechanisms and can all be injection molded in one
+            continuous piece.
+          </li>
+          <li className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
+            <b>3. </b>Increased product strength as the number of potential
+            failure points is greatly reduced.
+          </li>
+          <Writeup></Writeup>
           <div className="flex">
             <ProjectImage projectName="smartShelves" number="1" />
             <ProjectImage projectName="smartShelves" number="2" />

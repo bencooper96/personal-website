@@ -44,7 +44,7 @@ const App = () => {
             <h1 className="text-4xl text-gray-600 m-10">Solution:</h1>
             <p className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
               Herd is a platform focused on bringing local problems to light
-              through a user generated prompt & polling system.
+              through a user driven prompt & polling system.
             </p>
             <p className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
               The data collected on the platform is then visualized and freely
@@ -54,31 +54,71 @@ const App = () => {
             </p>
           </Writeup>
           <div className="flex">
-            <ProjectImage projectName="herd" number="1" />
-            <ProjectImage projectName="herd" number="2" />
+            <ProjectImage
+              projectName="herd"
+              customFormatting="w-full "
+              number="1"
+            />
+          </div>
+          <Writeup>
+            <h1 className="text-4xl text-gray-600 m-10">Core Decisions:</h1>
+            <p className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
+              <b>Allow only verified Users</b> to eliminate the creation of
+              troll and bot accounts that derail the conversation.
+            </p>
+            <p className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
+              <b>Focus on city & state politics</b> to limit the partisian
+              toxicity at the national level conversation.
+            </p>
+            <p className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
+              <b>Remove the binary of like/dislike</b> and celebrate nuance in
+              opinions through using a slider.
+            </p>
+            <p className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
+              <b>Open data and transparent practices</b> to ensure the data we
+              collect is valuable for everyone, not just the few who can pay.
+            </p>
+          </Writeup>
+          <div className="flex">
+            <ProjectImage
+              projectName="herd"
+              customFormatting="w-1/3 px-5"
+              number="2"
+            />
+            <ProjectImage
+              projectName="herd"
+              customFormatting="w-1/3 px-5"
+              number="3"
+            />
+            <ProjectImage
+              projectName="herd"
+              customFormatting="w-1/3 px-5"
+              number="4"
+            />
           </div>
           <Writeup>
             <h1 className="text-4xl text-gray-600 m-10">My Role:</h1>
             <li className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
-              I lead the product design effort
+              Led the design of the Herd app & website.
             </li>
             <li className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
-              I work with my cofounder on branding and business strategy
+              Conducted user interviews to understand needs of our target
+              market.
             </li>
             <li className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
-              I build and own the product
+              Developed (& continue to develop) the Herd IOS & Android App.
+            </li>
+            <li className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
+              Collaborated on the creation of the brand identity.
             </li>
           </Writeup>
-          <div className="flex">
-            <ProjectImage projectName="herd" number="3" />
-            <ProjectImage projectName="herd" number="4" />
-          </div>
           <Writeup>
             <p className="text-xl text-gray-600 mx-auto mt-20 w-5/6">
-              This project is still ongoing. If you want to learn more or follow
-              the progress here is the{" "}
-              <Link href="https://herd-v1.vercel.app/">
-                <a className="text-blue-600 underline">link</a>
+              This project is still ongoing.
+              <Link href="https://joinherd.us">
+                <a className="text-blue-600 underline">
+                  Click here if you want to learn more or follow the progress.
+                </a>
               </Link>
             </p>
           </Writeup>
