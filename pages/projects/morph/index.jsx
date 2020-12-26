@@ -20,7 +20,7 @@ const App = () => {
         projectLogo="logo"
         projectYear="2020"
         textFormating="text-gray-200"
-        logoFormatting="h-40"
+        logoFormatting="xs:h-10 md:h-40"
       >
         <div className="container ">
           <Writeup>

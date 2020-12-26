@@ -7,6 +7,7 @@ import Layout from "../../../src/components/projectPages/layout";
 import ProjectVideo from "../../../src/components/projectPages/projectVideo";
 import ProjectImage from "../../../src/components/projectPages/projectImage";
 import Writeup from "../../../src/components/projectPages/writeup";
+import Caption from "../../../src/components/projectPages/caption";
 
 const App = () => {
   return (
@@ -56,10 +57,16 @@ const App = () => {
           <div className="flex">
             <ProjectImage
               projectName="herd"
-              customFormatting="w-full "
-              number="1"
+              customFormatting="w-1/2 px-10"
+              number="5"
+            />
+            <ProjectImage
+              projectName="herd"
+              customFormatting="w-1/2 px-10"
+              number="6"
             />
           </div>
+          <Caption>current mobile design</Caption>
           <Writeup>
             <h1 className="text-4xl text-gray-600 m-10">Core Decisions:</h1>
             <p className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
@@ -96,17 +103,18 @@ const App = () => {
               number="4"
             />
           </div>
+          <Caption>early concept designs</Caption>
           <Writeup>
             <h1 className="text-4xl text-gray-600 m-10">My Role:</h1>
             <li className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
-              Led the design of the Herd app & website.
+              Led the design of the Herd app, website, and graphics.
             </li>
             <li className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
               Conducted user interviews to understand needs of our target
               market.
             </li>
             <li className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
-              Developed (& continue to develop) the Herd IOS & Android App.
+              Developed (& continue to develop) the Herd App.
             </li>
             <li className="text-xl text-gray-600 mx-auto mb-6 w-5/6">
               Collaborated on the creation of the brand identity.

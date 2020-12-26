@@ -88,6 +88,24 @@ class App extends Component {
               <ProjectImage projectName="nook" number="1" />
               <ProjectImage projectName="nook" number="2" />
             </div>
+            <div className="flex">
+              <ProjectImage projectName="nook" number="3" />
+              <ProjectImage projectName="nook" number="4" />
+            </div>
+            <div className="flex">
+              <ProjectImage projectName="nook" number="5" />
+              <Writeup>
+                <p className="text-l text-gray-600 mx-auto mb-6 w-3/4">
+                  The prototypes have allowed me to explore different materials
+                  and structural form
+                </p>
+                <p className="text-l text-gray-600 mx-auto mb-6 w-3/4">
+                  I have landed on a frame of rings (left) sandwiched by a duck
+                  cloth canvas (above) for its water resistance and porous
+                  nature.
+                </p>
+              </Writeup>
+            </div>
             <Writeup>
               <p className="text-xl text-gray-600 mx-auto mt-20 w-5/6">
                 This project is still in progress.

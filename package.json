@@ -18,7 +18,7 @@
     "react-scroll-horizontal": "^1.6.4",
     "react-scrollspy": "^3.4.3",
     "sass": "^1.26.11",
-    "swiper": "^6.3.1"
+    "swiper": "^6.4.5"
   },
   "devDependencies": {
     "postcss-preset-env": "^6.7.0",

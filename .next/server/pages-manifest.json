@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/projects/smartShelves": "pages/projects/smartShelves.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
-  "/projects/soloStander": "pages/projects/soloStander.js"
+  "/": "pages/index.js",
+  "/projects/nook": "pages/projects/nook.js",
+  "/projects/morph": "pages/projects/morph.js"
 }
