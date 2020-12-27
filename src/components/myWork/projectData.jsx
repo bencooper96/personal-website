@@ -2,14 +2,14 @@
 
 export const ProjectsData = [
   {
-    name: "Solo Stander",
-    imgPath: "soloStander/",
-    slug: "soloStander",
-  },
-  {
     name: "Herd",
     imgPath: "herd/",
     slug: "herd",
+  },
+  {
+    name: "Solo Stander",
+    imgPath: "soloStander/",
+    slug: "soloStander",
   },
   {
     name: "Smart Shelves",

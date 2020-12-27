@@ -62,17 +62,17 @@ const App = () => {
           <div className="flex">
             <ProjectImage
               projectName="herd"
-              customFormatting="w-1/3 px-10"
+              customFormatting="w-1/3 px-5"
               number="5"
             />
             <ProjectImage
               projectName="herd"
-              customFormatting="w-1/3 px-10"
+              customFormatting="w-1/3 px-5"
               number="7"
             />
             <ProjectImage
               projectName="herd"
-              customFormatting="w-1/3 px-10"
+              customFormatting="w-1/3 px-5"
               number="6"
             />
           </div>
