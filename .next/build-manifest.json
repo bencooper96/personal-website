@@ -29,15 +29,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/projects/morph": [
+    "/projects/herd": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/projects/morph.js"
-    ],
-    "/projects/nook": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/projects/nook.js"
+      "static/chunks/pages/projects/herd.js"
     ]
   },
   "ampFirstPages": []

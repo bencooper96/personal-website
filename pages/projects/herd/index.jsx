@@ -16,7 +16,12 @@ const App = () => {
         <title>Herd</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Layout projectImgPath="herd" projectName="Herd" projectYear="2020">
+      <Layout
+        projectImgPath="herd"
+        // projectName="Herd"
+        projectYear="2020"
+        logoFormating="h-40"
+      >
         <div className="container ">
           <Writeup>
             <h1 className="text-4xl text-gray-600 m-10">Background:</h1>
