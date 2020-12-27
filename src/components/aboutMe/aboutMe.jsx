@@ -24,13 +24,13 @@ class AboutMe extends Component {
           <div className="text-2xl md:text-3xl my-20">
             <p className="mb-4">
               i am interested in many things and, when my attention is grabbed,
-              i like to dash ahead with vigor.
+              i can't help but devote myself wholeheartedly.
             </p>
           </div>
           <div className="text-2xl md:text-3xl my-20">
             <p className="mb-4">
-              due to this, i have ended up as a generalist and i would estimate
-              my levels of confidence as:
+              due to this, i have ended up as a generalist. i would estimate my
+              levels of confidence as:
             </p>
             <Skills />
           </div>
