@@ -18,8 +18,7 @@ class AboutMe extends Component {
             a guy desperately trying to avoid becoming a corporate stiff.
           </div> */}
           <div className="text-2xl md:text-3xl my-20">
-            i aspire to build things that help people and their communities
-            thrive.
+            i build things that help people and communities thrive.
           </div>
           <div className="text-2xl md:text-3xl my-20">
             <p className="mb-4">
