@@ -23,9 +23,9 @@ class App extends Component {
             content="initial-scale=1.0, width=device-width"
           />
         </Head>
-        <Navigation />
+        {/* <Navigation />
         <LandingPage />
-        <AboutMe />
+        <AboutMe /> */}
         <MyWork />
         <Footer />
       </div>

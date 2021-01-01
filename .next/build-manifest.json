@@ -38,6 +38,11 @@
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/projects/herd.js"
+    ],
+    "/projects/nook": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/projects/nook.js"
     ]
   },
   "ampFirstPages": []

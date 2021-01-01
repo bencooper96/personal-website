@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex-1 text-center md:text-left">ben cooper </div>
         <div className="flex-1 text-center">- 2020 -</div>
         <div className="flex-1 text-center md:text-right">
-          built during quarantine
+          cooperben83@gmail.com
         </div>
       </div>
     </footer>

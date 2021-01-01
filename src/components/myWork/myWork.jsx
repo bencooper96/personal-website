@@ -10,7 +10,10 @@ import { Project } from "./project";
 
 const MyWork = () => {
   return (
-    <div className="bg-gray-500 py-10 md:py-40 md:px-4 w-full" id="my-work">
+    <div className="bg-gray-500 py-10  md:px-4 w-full" id="my-work">
+      <div className="text-5xl md:text-6xl">
+        <p className="mb-5 text-center">My Work</p>
+      </div>
       <span className="hidden md:block bg-gray-300">
         <Swiper
           spaceBetween={0.5}

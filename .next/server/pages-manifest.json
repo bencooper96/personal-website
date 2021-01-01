@@ -4,5 +4,6 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
-  "/projects/herd": "pages/projects/herd.js"
+  "/projects/herd": "pages/projects/herd.js",
+  "/projects/nook": "pages/projects/nook.js"
 }
