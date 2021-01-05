@@ -5,7 +5,13 @@ const Image = (props) => {
     <React.Fragment>
       <div
         className="m-2 bg-gray-300 md:block mx-auto md:mx-2 relative"
-        style={{ cursor: "pointer", width: "80vw", height: "45vw" }}
+        style={{
+          cursor: "pointer",
+          width: "80vw",
+          height: "45vw",
+          maxWidth: "1000px",
+          maxHeight: "400px",
+        }}
       >
         <img
           src={`img/projectPictures/${props.projectData.imgPath}preview.png`}

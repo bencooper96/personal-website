@@ -21,11 +21,11 @@ export const ProjectsData = [
     imgPath: "morph/",
     slug: "morph",
   },
-  {
-    name: "Nook",
-    imgPath: "nook/",
-    slug: "nook",
-  },
+  // {
+  //   name: "Nook",
+  //   imgPath: "nook/",
+  //   slug: "nook",
+  // },
   // {
   //   name: "Bottle Stencil",
   //   imgPath: "bottleStencil/",

@@ -11,31 +11,26 @@ class AboutMe extends Component {
           id="about-me-target"
         >
           <h1 className="text-5xl md:text-6xl mt-32" id="about-me">
-            hey, <br />
-            i'm ben;
+            Hey, <br />
+            I'm Ben;
           </h1>
-          {/* <div className="text-2xl md:text-3xl mt-8">
-            a guy desperately trying to avoid becoming a corporate stiff.
+
+          <div className="text-2xl md:text-3xl my-20">
+            I like to build things that help people and communities thrive.
+          </div>
+          {/* <div className="text-2xl md:text-3xl my-20">
+            <p className="mb-4">
+              I am interested in many things and, when my attention is grabbed,
+              I can't help but devote myself wholeheartedly.
+            </p>
           </div> */}
           <div className="text-2xl md:text-3xl my-20">
-            i build things that help people and communities thrive.
-          </div>
-          <div className="text-2xl md:text-3xl my-20">
-            <p className="mb-4">
-              i am interested in many things and, when my attention is grabbed,
-              i can't help but devote myself wholeheartedly.
-            </p>
-          </div>
-          <div className="text-2xl md:text-3xl my-20">
-            <p className="mb-4">
-              due to this, i have ended up as a generalist. i would estimate my
-              levels of confidence as:
-            </p>
+            <p className="mb-4">I would estimate my levels of expertise as:</p>
             <Skills />
           </div>
           <div className="text-2xl md:text-3xl mt-10">
-            i like watching movies when it rains and riding my bike when it
-            doesn't
+            I like watching movies when it rains and riding my bike when it
+            doesn't.
           </div>
         </div>
       </div>
