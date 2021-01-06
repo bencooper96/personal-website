@@ -3,6 +3,7 @@ import TV from "./tv";
 import Statue from "./statue";
 import Factory from "./factory";
 import CityBerry from "./cityBerry";
+import ScrollArrow from "./scrollArrow";
 
 class LandingPage extends Component {
   state = {};
@@ -23,6 +24,9 @@ class LandingPage extends Component {
             <Factory />
             <CityBerry />
             <TV />
+            <div className="absolute bottom-0 mb-4 inset-x-0 ">
+              <ScrollArrow />
+            </div>
           </div>
         </div>
       </div>
