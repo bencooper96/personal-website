@@ -29,10 +29,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/projects/herd": [
+    "/projects/soloStander": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/projects/herd.js"
+      "static/chunks/pages/projects/soloStander.js"
     ]
   },
   "ampFirstPages": []

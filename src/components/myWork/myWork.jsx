@@ -10,7 +10,7 @@ import { Project } from "./project";
 
 const MyWork = () => {
   return (
-    <div className="bg-gray-400 py-10 md:px-4 " id="my-work">
+    <div className="bg-gray-500 py-10 md:px-4 " id="my-work">
       <div className="md:px-32 px-8 text-center">
         <p className="text-5xl md:text-6xl text-gray-800 ">My Work</p>
       </div>
