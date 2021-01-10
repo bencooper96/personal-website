@@ -17,7 +17,7 @@ class App extends Component {
         }}
       >
         <Head>
-          <title>ben cooper</title>
+          <title>&#128075; Hey, I'm Ben</title>
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width"
