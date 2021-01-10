@@ -7,7 +7,7 @@ class AboutMe extends Component {
     return (
       <div className="bg-gray-300 my-0 w-full static">
         <div
-          className="py-64 md:px-32 px-8 w-full relative z-0"
+          className="py-64 md:px-32 px-4 w-full relative z-0"
           id="about-me-target"
         >
           <h1 className="text-5xl md:text-6xl mt-32" id="about-me">
