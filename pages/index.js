@@ -13,7 +13,7 @@ class App extends Component {
       <div
         className="App"
         style={{
-          fontFamily: "Courier New, Courier, monospace",
+          fontFamily: "Montserrat, sans-serif",
         }}
       >
         <Head>
